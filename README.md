@@ -13,7 +13,7 @@ To benchmark performance, a **simple Convolutional Neural Network (CNN)** is inc
 |------------|-------------|
 | **Gibbs Sampler** | Core focus of this project. Implements the classic MCMC algorithm for motif discovery using PWM re-estimation, probabilistic sampling, and convergence checking. |
 | **CNN Baseline** | PyTorch-based neural network for motif classification on the same CTCF dataset. Serves as a comparison point for the Gibbs sampler’s interpretability and performance. |
-| **Dataset** | CTCF DNA sequences provided in FASTA format (small example included under `data/`). |
+| **Dataset** | CTCF DNA sequences |
 | **Outputs** | PWM matrix, discovered motif positions, CNN training metrics, and learned filters. |
 
 ---
